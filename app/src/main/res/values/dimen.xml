@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsixe">30dp</dimen>
+    <dimen name="wight">3</dimen>
+    <dimen name="wightbtn">1</dimen>
+    <dimen name="hight">0dp</dimen>
+    <dimen name="textsixen">24dp</dimen>
+    <dimen name="wightbtnn">0.1</dimen>
+</resources>
