@@ -5,14 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout_weight="58"
+    android:layout_weight="19"
     android:orientation="vertical"
     tools:context=".MayTinhTienIch.MayTinhNho">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="20">
+        style="@style/lilayoutedt"
+        android:layout_weight="1">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="000"></EditText>
         <!--      //cho cai menu vao day vd: <tdc.edu.vn.mutimedia.LibaryControl.MyLayerCOntrol-->
         <!--      android:layout_width="match_parent"-->
         <!--      android:layout_height="match_parent"-->
@@ -26,7 +29,7 @@
         style="@style/lilayoutedt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="20"
+        android:layout_weight="2"
         android:background="@drawable/my_boder"
         >
 
@@ -34,7 +37,7 @@
             android:id="@+id/edtnumberc"
             style="@style/edtnumber"
             android:layout_marginTop="10dp"
-            android:layout_weight="10"
+            android:layout_weight="1"
             android:editable="false"
             android:gravity="left"
             android:singleLine="true"
@@ -50,32 +53,29 @@
             android:textColor="@color/white"
             android:gravity="right"
             android:singleLine="true"
-            android:layout_weight="10"></EditText>
+            android:layout_weight="1"></EditText>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        style="@style/lilayoutedt"
         android:layout_weight="6"
         android:orientation="vertical">
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/lilayoutedt"
             android:layout_weight="2"
             >
             <Button
                 android:id="@+id/btnx1"
                 style="@style/button666"
-                android:text="<-^" />
+                android:text="x^" />
             <Button
                 android:id="@+id/btnqua"
                 style="@style/button666"
-                android:text="<-" />
+                android:text="⇤ " />
             <Button
                 android:id="@+id/btntoi"
                 style="@style/button666"
-                android:text="->" />
+                android:text="⇥" />
             <Button
                 android:id="@+id/btnxoa1"
                 style="@style/button666"
@@ -86,19 +86,17 @@
                 android:text="CLR" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            style="@style/lilayoutedt"
             android:layout_weight="2"
             >
             <Button
                 android:id="@+id/btnxwx"
                 style="@style/button666"
-                android:text="X:X" />
+                android:background="@drawable/ic_operator_fraction" />
             <Button
                 android:id="@+id/btnxxx"
                 style="@style/button666"
-                android:text="X^X"/>
+                android:background="@drawable/ic_function_power"/>
             <Button
                 android:id="@+id/btnxcanx"
                 style="@style/button666"
@@ -113,9 +111,8 @@
                 android:text="MC" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            style="@style/lilayoutedt"
+
             android:layout_weight="2"
             >
             <Button
@@ -143,16 +140,13 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="12"
+        style="@style/lilayoutedt"
+        android:layout_weight="10"
         android:background="@color/white"
         android:orientation="vertical">
 
 
         <LinearLayout
-
             style="@style/lilayoutman">
 
             <Button
@@ -258,7 +252,7 @@
             <Button
                 android:id="@+id/btndoi"
                 style="@style/button1_9"
-                android:text="S<=>D" />
+                android:text="S⇄D" />
 
 
             <Button
